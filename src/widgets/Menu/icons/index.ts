@@ -17,6 +17,7 @@ export { default as TicketIcon } from "./Ticket";
 export { default as TradeIcon } from "./Trade";
 export { default as TwitterIcon } from "./Twitter";
 export { default as LinktreeIcon } from "./Linktree";
+export { default as EtherscanIcon } from "./Etherscan";
 export { default as ShieldIcon } from "./Shield";
 export { default as BushIcon } from "./Bush";
 export { default as DiscordIcon } from "./Discord";

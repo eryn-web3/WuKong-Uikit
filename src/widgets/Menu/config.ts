@@ -26,71 +26,67 @@ export const links = [
   {
     label: "Pools",
     icon: "PoolIcon",
-    href: "/syrup",
+    href: "/pools",
   },
   {
     label: "Launchpad",
     icon: "BushIcon",
     href: "/bush",
   },
-  {
-    label: 'IFO',
-    icon: 'IfoIcon',
-    href: 'https://wukong.finance/#/ifo',
-  },
+  // {
+  //   label: 'IFO',
+  //   icon: 'IfoIcon',
+  //   href: 'https://wukong.finance/#/ifo',
+  // },
   {
     label: 'Audit',
     icon: 'ShieldIcon',
-    href: 'https://wukong.finance/files/techaudit_wukong.pdf',
+    href: 'https://wukong.finance/#/audit',
   },
   {
-    label: 'Listing',
+    label: 'Listings',
     icon: 'InfoIcon',
     items: [
       {
-        label: 'EtherScan',
-        href: '#',
-      },
-      {
         label: 'DappRadar',
-        href: '#',
+        href: '/dappradar',
       },
       {
         label: 'CoinGecko',
-        href: '#',
+        href: '/coingecko',
       },
       {
         label: 'CoinMarketCap',
-        href: '#',
+        href: '/coinmarketcap',
       },
     ]
   },
-  {
-    label: 'Analytics',
-    icon: 'ListViewIcon',
-    items: [
-      {
-        label: 'Overview',
-        href: 'https://info.wukong.finance',
-        target: '_blank',
-      },
-      {
-        label: 'Tokens',
-        href: 'https://info.wukong.finance/tokens',
-        target: '_blank',
-      },
-      {
-        label: 'Pairs',
-        href: 'https://info.wukong.finance/pairs',
-        target: '_blank',
-      },
-      {
-        label: 'Accounts',
-        href: 'https://info.wukong.finance/accounts',
-        target: '_blank',
-      },      
-    ],
-  },
+  // {
+  //   label: 'Analytics',
+  //   icon: 'ListViewIcon',
+  //   items: [
+  //     {
+  //       label: 'Overview',
+  //       href: 'https://info.wukong.finance',
+  //       target: '_blank',
+  //     },
+  //     {
+  //       label: 'Tokens',
+  //       href: 'https://info.wukong.finance/tokens',
+  //       target: '_blank',
+  //     },
+  //     {
+  //       label: 'Pairs',
+  //       href: 'https://info.wukong.finance/pairs',
+  //       target: '_blank',
+  //     },
+  //     {
+  //       label: 'Accounts',
+  //       href: 'https://info.wukong.finance/accounts',
+  //       target: '_blank',
+  //     },      
+  //   ],
+  // },
   {
     label: 'More',
     icon: 'MoreIcon',
@@ -107,7 +103,7 @@ export const links = [
       },
       {
         label: 'NFT Marketplace',
-        href: '#',
+        href: '/nft',
         target: '_blank',
       },
       {
@@ -117,7 +113,7 @@ export const links = [
       },
       {
         label: 'Partnership',
-        href: '#',
+        href: '/partnership',
         target: '_blank',
       },
     ],
@@ -160,6 +156,11 @@ export const socials = [
     label: "Linktree",
     icon: "LinktreeIcon",
     href: "https://linktr.ee/wukongeth",
+  },
+  {
+    label: "Etherscan",
+    icon: "EtherscanIcon",
+    href: "https://etherscan.io/address/0x7c1Aa5e99B86d0f1615e964Bd07CE66d77570493",
   },
 ];
 
