@@ -1,6 +1,6 @@
 {
   "name": "@wukongfinance/uikit",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Wukong-Finance/uikit",
+  "repository": "https://github.com/WukongEth/uikit",
   "license": "MIT",
   "scripts": {
     "build": "rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",

@@ -97,7 +97,7 @@ export const links = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/WuKong-Finance/',
+        href: 'https://github.com/WukongEth/',
         target: '_blank',
       },
       {
@@ -112,7 +112,7 @@ export const links = [
       },
       {
         label: 'Blog',
-        href: 'https://wukongfinance.medium.com/',
+        href: 'https://medium.com/@WukongEth',
         target: '_blank',
       },
       {
@@ -155,6 +155,11 @@ export const socials = [
     label: "Twitter",
     icon: "TwitterIcon",
     href: "https://twitter.com/Wukong_Eth",
+  },
+  {
+    label: "Linktree",
+    icon: "LinktreeIcon",
+    href: "https://linktr.ee/wukongeth",
   },
 ];
 
