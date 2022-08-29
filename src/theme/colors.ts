@@ -55,7 +55,7 @@ export const baseColors = {
     textSubtle: "#FF720D",
     activeButton: "#397f49",
     borderColor: "#524B63",
-    card: "#121827",
+    card: "rgba(18,24,39,0.8)",
     nav: "#130119",
     gradients: {
       bubblegum: "linear-gradient(139.73deg, #1f606f 0%, #164865 100%)",

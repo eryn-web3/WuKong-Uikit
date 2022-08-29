@@ -3068,7 +3068,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { ba
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#e9f1fd", background: "#1f2b46", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#0a0e17", input: "#483f3b", 
     // inputBorder: "#cccccc",    
-    inputSecondary: "#cccccc", primaryDark: "#d95b00", tertiary: "#2d2f37", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#FF720D", activeButton: "#397f49", borderColor: "#524B63", card: "#121827", nav: "#130119", gradients: {
+    inputSecondary: "#cccccc", primaryDark: "#d95b00", tertiary: "#2d2f37", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#FF720D", activeButton: "#397f49", borderColor: "#524B63", card: "rgba(18,24,39,0.8)", nav: "#130119", gradients: {
         bubblegum: "linear-gradient(139.73deg, #1f606f 0%, #164865 100%)",
     } });
 
