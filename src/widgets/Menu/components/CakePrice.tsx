@@ -26,7 +26,7 @@ const CakePrice: React.FC<Props> = ({ cakePriceUsd }) => {
   return cakePriceUsd ? (
     <PriceLink>
       <PancakeRoundIcon width="24px" mr="8px" />
-      <Text color="text" bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
+      <Text color="text" bold>{`$${cakePriceUsd.toFixed(6)}`}</Text>
     </PriceLink>
   ) : (
     <Skeleton width={80} height={24} />

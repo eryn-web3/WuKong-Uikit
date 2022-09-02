@@ -44,6 +44,11 @@ export const links = [
     href: 'https://wukong.finance/#/audit',
   },
   {
+    label: 'M2E Game',
+    icon: 'GamepadIcon',
+    href: 'soon',
+  },
+  {
     label: 'Listings',
     icon: 'InfoIcon',
     items: [
@@ -58,6 +63,10 @@ export const links = [
       {
         label: 'CoinMarketCap',
         href: '/coinmarketcap',
+      },
+      {
+        label: 'Exchanges',
+        href: 'soon',
       },
     ]
   },
@@ -98,7 +107,7 @@ export const links = [
       },
       {
         label: 'Docs',
-        href: "https://WuKong.gitbook.io/wukongfinance/",
+        href: "https://docs.wukong.finance",
         target: '_blank',
       },
       {

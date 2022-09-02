@@ -1,5 +1,5 @@
 import React from "react";
-import { ChainId } from "@wukongfinance/sdk"
+import { ChainId } from "@wukongfinance/sdkuni"
 import Button from "../../components/Button/Button";
 import Text from "../../components/Text/Text";
 import LinkExternal from "../../components/Link/LinkExternal";

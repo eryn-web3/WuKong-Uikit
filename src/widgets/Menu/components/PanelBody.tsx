@@ -7,6 +7,7 @@ import Accordion from "./Accordion";
 import { MenuEntry, LinkLabel } from "./MenuEntry";
 import MenuLink from "./MenuLink";
 import { PanelProps, PushedProps } from "../types";
+import { alignItems } from "styled-system";
 
 interface Props extends PanelProps, PushedProps {
   isMobile: boolean;
@@ -20,6 +21,15 @@ const Container = styled.div`
   overflow-y: auto;
   overflow-x: hidden;
   height: 100%;
+`;
+
+const StyledSoon = styled.span`
+  background-color: #0095ff;
+  color: #fff;
+  font-size: 12px;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 2px 3px;
 `;
 
 const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
@@ -50,11 +60,14 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
               className={calloutClass}
             >
               {isPushed &&
-                entry.items.map((item) => (
-                  <MenuEntry key={item.href} secondary isActive={item.href === location.pathname} onClick={handleClick}>
-                    <MenuLink href={item.href} target={item.target}>{item.label}</MenuLink>
+                entry.items.map((item) => {
+                  return <MenuEntry key={item.href} secondary isActive={item.href === location.pathname} onClick={handleClick}>
+                    <MenuLink href={item.href} target={item.target} style={{justifyContent: 'space-between'}}>
+                      {item.label}
+                      {item.href === "soon" ? <StyledSoon>soon</StyledSoon> : null}
+                    </MenuLink>
                   </MenuEntry>
-                ))}
+                })}
             </Accordion>
           );
         }
@@ -63,6 +76,7 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
             <MenuLink href={entry.href} target={entry.target} onClick={handleClick}>
               {iconElement}
               <LinkLabel isPushed={isPushed}>{entry.label}</LinkLabel>
+              {entry.href === "soon" ? <StyledSoon>soon</StyledSoon> : null}
             </MenuLink>
           </MenuEntry>
         );
