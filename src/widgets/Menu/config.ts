@@ -169,7 +169,7 @@ export const socials = [
   {
     label: "Etherscan",
     icon: "EtherscanIcon",
-    href: "https://etherscan.io/address/0x7c1Aa5e99B86d0f1615e964Bd07CE66d77570493",
+    href: "https://etherscan.io/address/0x375Ed1ED5a371c70b2829F38C735ccD457Da4F97",
   },
 ];
 
