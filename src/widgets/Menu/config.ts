@@ -36,12 +36,12 @@ export const links = [
   // {
   //   label: 'IFO',
   //   icon: 'IfoIcon',
-  //   href: 'https://wukong.finance/#/ifo',
+  //   href: 'https://wukongdao.io/#/ifo',
   // },
   {
     label: 'Audit',
     icon: 'ShieldIcon',
-    href: 'https://wukong.finance/#/audit',
+    href: 'https://wukongdao.io/#/audit',
   },
   {
     label: 'M2E Game',
@@ -76,22 +76,22 @@ export const links = [
   //   items: [
   //     {
   //       label: 'Overview',
-  //       href: 'https://info.wukong.finance',
+  //       href: 'https://info.wukongdao.io',
   //       target: '_blank',
   //     },
   //     {
   //       label: 'Tokens',
-  //       href: 'https://info.wukong.finance/tokens',
+  //       href: 'https://info.wukongdao.io/tokens',
   //       target: '_blank',
   //     },
   //     {
   //       label: 'Pairs',
-  //       href: 'https://info.wukong.finance/pairs',
+  //       href: 'https://info.wukongdao.io/pairs',
   //       target: '_blank',
   //     },
   //     {
   //       label: 'Accounts',
-  //       href: 'https://info.wukong.finance/accounts',
+  //       href: 'https://info.wukongdao.io/accounts',
   //       target: '_blank',
   //     },      
   //   ],
@@ -130,23 +130,23 @@ export const links = [
   // {
   //   label: 'Referrals',
   //   icon: 'GroupsIcon',
-  //   href: 'https://wukong.finance/#/referrals',
+  //   href: 'https://wukongdao.io/#/referrals',
   // },
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',
-  //   href: 'https://wukong.finance/#/lottery',
+  //   href: 'https://wukongdao.io/#/lottery',
   // },
   // {
   // {
   //   label: 'NFT Marketplace',
   //   icon: 'NftIcon',
-  //   href: 'https://nft.wukong.finance',
+  //   href: 'https://nft.wukongdao.io',
   // },
   // {
   //   label: 'NFT Gaming',
   //   icon: 'MoonIcon',
-  //   href: 'https://wukong.finance/#/nftgaming',
+  //   href: 'https://wukongdao.io/#/nftgaming',
   // },
 ];
 

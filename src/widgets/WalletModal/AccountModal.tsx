@@ -20,7 +20,7 @@ type scanList = {
 
 const SCAN_URL: scanList = {
   [ChainId.MAINNET]: 'https://etherscan.io/address/',
-  [ChainId.RINKEBY]: 'https://etherscan.io/address/',
+  [ChainId.RINKEBY]: 'https://rinkeby.etherscan.io/address/',
   [ChainId.BSCNET]: 'https://bscscan.com/address/',
   [ChainId.BSCTESTNET]: 'https://bscscan.com/address/',
   [ChainId.FANTOMNET]: 'https://ftmscan.com/address/',
@@ -30,7 +30,7 @@ const SCAN_URL: scanList = {
 }
 const SCAN_NAME: scanList = {
   [ChainId.MAINNET]: 'EtherScan',
-  [ChainId.RINKEBY]: 'EtherScan',
+  [ChainId.RINKEBY]: 'Rinkeby EtherScan',
   [ChainId.BSCNET]: 'BscScan',
   [ChainId.BSCTESTNET]: 'BscScan',
   [ChainId.FANTOMNET]: 'FtmScan',
