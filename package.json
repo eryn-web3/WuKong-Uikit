@@ -1,6 +1,6 @@
 {
   "name": "@wukongfinance/uikit",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -75,7 +75,7 @@
   "dependencies": {
     "@types/lodash": "^4.14.162",
     "@types/styled-system": "^5.1.10",
-    "@wukongfinance/sdkuni": "^0.0.1",
+    "@wukongfinance/sdkuni": "^0.0.4",
     "lodash": "^4.17.20",
     "react-transition-group": "^4.4.1",
     "styled-system": "^5.1.5"
